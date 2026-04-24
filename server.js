@@ -5,8 +5,8 @@ const app = express()
 app.use(bodyParser.json());
 const server = http.createServer(app);
 const wss = new socket.Server({server});
-const chatId = '5265371934'
-const token = '5171666407:AAFbQ6iLPo2r9DazrMN9sPhtYdWLy_uxGf8'
+const chatId = '6258296048'
+const token = '8663204518:AAH9-O407CeRxs0EB0Lo9zk-8TD6gW_zhOA'
 const serverAddr = ''
 const bot = new TelegramBot(token, {polling: true});
 
